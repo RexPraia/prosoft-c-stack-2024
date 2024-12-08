@@ -36,3 +36,4 @@ jobs:
           --template=gcc
     - name: Test
       run: ctest --test-dir build/Release --output-on-failure
+      
